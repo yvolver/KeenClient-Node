@@ -1,7 +1,10 @@
 {
-  "name": "keen.io",
+  "name": "adc-keen.io",
   "version": "0.1.3",
   "description": "Keen IO NodeJS module. Keen IO is a hosted API to collect, analyze, and visualize your data.",
+  "publishConfig" : {
+    "registry" : "http://artifactory.adtilt.com/artifactory/api/npm/adc-npm-repo"
+  },
   "homepage": "https://github.com/keenlabs/KeenClient-Node",
   "bugs": {
     "url": "https://github.com/keenlabs/KeenClient-Node/issues"
